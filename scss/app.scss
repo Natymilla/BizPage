@@ -1,0 +1,25 @@
+
+#contact {
+    display: flex;
+    color: black;
+    .form-row {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        .new-iten {
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            .title {
+                padding-left: 5px;
+                margin-right: 10px;
+                text-align: center;
+            }
+            .form-group {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+        }
+    }
+}

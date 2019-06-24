@@ -38,6 +38,7 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
@@ -436,20 +437,26 @@
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <h6>Nome</h6>
-                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Porfavor digite mais que 4 caracteres" />
-                <div class="validation"></div>
+              <div class="new-iten">
+                <h6 class="title">Nome</h6>
+                <div class="form-group ">
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Porfavor digite mais que 4 caracteres" />
+                  <div class="validation"></div>
+                </div>
               </div>
-              <h6>Email</h6>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email"  data-rule="email" data-msg="Entre um email válido" />
-              <div class="validation"></div>
+              <div class="new-iten">
+                <h6 class="title">Email</h6>
+                <div class="form-group ">
+                  <input type="email" class="form-control" name="email" id="email"  data-rule="email" data-msg="Entre um email válido" />
+                  <div class="validation"></div>
+                </div>
               </div>
-              <h6>Telefone</h6>
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="cellphone" id="cellphone" data-rule="minlen:4" data-msg="Entre com um número válido" />
-                <div class="validation"></div>
+              <div class="new-iten">
+                <h6 class="title">Assunto</h6>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Entre com o assunto" />
+                  <div class="validation"></div>
+                </div>
               </div>
             </div>
             <h6>Mensagem</h6>
