@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -151,7 +151,7 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -287,7 +287,7 @@ h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -382,7 +382,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
@@ -484,7 +484,7 @@ h6 {
   display: block;
   outline: none;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #mobile-nav ul li a:hover {
@@ -1039,7 +1039,6 @@ body{
 }
 }
 
-/*extra small device style */
 @media (max-width: 575px) {
     .timeline::before {
     content: "";
@@ -1234,81 +1233,28 @@ body{
 
 #team .member {
   text-align: center;
-  border-radius: 100%;
   margin-bottom: 100px;
-  background: #000;
   position: relative;
 }
 
-#team .member .member-info {
-  opacity: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
+#team .img-fluid{
+  border-radius: 50%;
 }
 
-#team .member .member-info-content {
-  margin-top: -50px;
-  transition: margin 0.2s;
-}
-
-#team .member:hover .member-info {
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
 
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #d20017;
 }
 
 #team .member span {
   font-style: italic;
-  display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #d20017;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /* Contact Section
 --------------------------------*/
