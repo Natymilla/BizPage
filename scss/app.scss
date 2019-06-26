@@ -36,20 +36,90 @@
     width:553px;
 }
 
-#about{
+/*Head-Intro Section */
+.btn-primary {
+    background-color: #d20017;
+    border-color: #d20017;
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: darken(#d20017, 7.5%) !important;
+      border-color: darken(#d20017, 7.5%) !important;
+      color: white;
+    }
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(230, 11, 11, 0.63)!important;
+    }
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url('../img/lab.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    .intro-text {
+      padding-top: 150px;
+      padding-bottom: 100px;
+      .intro-lead-in {
+        font-size: 22px;
+        font-style: italic;
+        line-height: 22px;
+        margin-bottom: 25px;
+        
+      }
+      .intro-heading {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 25px;
+       
+      }
+    }
+  }
+  @media(min-width:768px) {
+    header.masthead {
+      .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        .intro-lead-in {
+          font-size: 40px;
+          font-style: italic;
+          line-height: 40px;
+          margin-bottom: 25px;
+         
+        }
+        .intro-heading {
+          font-size: 75px;
+          font-weight: 700;
+          line-height: 75px;
+          margin-bottom: 50px;
+          
+        }
+      }
+    }
+  }
+  
+
+/* Timeline Section */
 .page-section {
     padding: 100px 0;
     h2.section-heading {
       font-size: 40px;
       margin-top: 0;
       margin-bottom: 15px;
+      color: #fff;
     }
     h3.section-subheading {
       font-size: 16px;
       font-weight: 400;
+      font-style: italic;
       margin-bottom: 75px;
       text-transform: none;
-      @include serif-font;
+      color:#fff;
     }
   }
   @media(min-width:768px) {
@@ -60,12 +130,10 @@
   
   // Highlight color customization
   ::-moz-selection {
-    background: $primary;
     text-shadow: none;
   }
   
   ::selection {
-    background: $primary;
     text-shadow: none;
   }
   
@@ -77,7 +145,12 @@
     background: transparent;
 }
 
+#about{
+    background-color: black;
+}
+
 .timeline {
+    background-color: black;
     position: relative;
     padding: 0;
     list-style: none;
@@ -89,7 +162,8 @@
       width: 2px;
       margin-left: -1.5px;
       content: '';
-      background-color: $gray-200;
+      color: #d20017;
+      border: 2px dashed;
     }
     > li {
       position: relative;
@@ -131,13 +205,14 @@
         margin-left: 0;
         text-align: center;
         color: white;
-        border: 7px solid $gray-200;
+        border: 7px solid #d20017;
         border-radius: 100%;
-        background-color: $primary;
+        background-color: #fff;
         h4 {
           font-size: 10px;
           line-height: 14px;
           margin-top: 12px;
+          color: #fff;
         }
       }
       &.timeline-inverted > .timeline-panel {
@@ -174,6 +249,7 @@
        > ul,
       > p {
         margin-bottom: 0;
+        color: #fff;
       }
     }
   }
@@ -255,4 +331,4 @@
       }
     }
   }
-}
+
