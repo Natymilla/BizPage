@@ -24,7 +24,7 @@
 }
 
 #mapouter {
-  position: relative;
+  position: absolute;
   text-align: right;
   height: 259px;
   width: 553px;
@@ -38,6 +38,24 @@
 }
 
 /*Head-Intro Section */
+#headerIni {
+  position: absolute;
+  padding: 5px;
+  background-color: #d20017;
+}
+#headerIni .headright {
+  text-align: right;
+}
+#headerIni .headright a, #headerIni .headright p {
+  color: #fff;
+}
+#headerIni .headleft {
+  text-align: left;
+}
+#headerIni .headleft i {
+  color: #fff;
+}
+
 .btn-primary {
   background-color: #d20017;
   border-color: #d20017;
