@@ -203,5 +203,27 @@
     items: 1
   });
 
-})(jQuery);
+  $(".team-carousel").owlCarousel({
+      nav : false, // Show next and prev buttons
+      loop:false,
+      margin:10,
+      autoplay:true,
+      autoplayTimeout:5000,
+      autoplayHoverPause:false,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:4
+          },
+          1400: {
+              items:5
+          }
+      }
+  });
 
+})(jQuery);
