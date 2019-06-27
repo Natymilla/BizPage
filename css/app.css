@@ -120,10 +120,10 @@ header.masthead .intro-text .intro-heading {
   color: #fff;
 }
 .page-section h3.section-subheading {
-  font-size: 16px;
+  font-size: 40px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 70px;
   text-transform: none;
   color: #fff;
 }
@@ -323,6 +323,28 @@ img::-moz-selection {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+/* Clients Sections */
+#clients {
+  padding: 200px 0;
+  background: url("../img/union.jpg") center top no-repeat fixed;
+  position: relative;
+  background-color: rgba(129, 28, 28, 0.678);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+#clients .section-header h3 {
+  text-align: top;
+  color: #fff;
+}
+#clients img {
+  max-width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+#clients img:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=app.css.map */
