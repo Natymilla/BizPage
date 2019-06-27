@@ -25,35 +25,34 @@
 
 #mapouter {
   position: absolute;
-  text-align: right;
-  height: 259px;
-  width: 553px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 #gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 259px;
-  width: 553px;
+  width: 810px;
 }
 
 /*Head-Intro Section */
-#headerIni {
+.headerIni {
   position: absolute;
-  padding: 5px;
+  display: block;
+}
+.headerIni .ul {
+  list-style: none;
   background-color: #d20017;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-#headerIni .headright {
-  text-align: right;
-}
-#headerIni .headright a, #headerIni .headright p {
-  color: #fff;
-}
-#headerIni .headleft {
-  text-align: left;
-}
-#headerIni .headleft i {
-  color: #fff;
+.headerIni .li .push {
+  margin-left: auto;
 }
 
 .btn-primary {
@@ -64,9 +63,6 @@
   background-color: #ac0013 !important;
   border-color: #ac0013 !important;
   color: white;
-}
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(230, 11, 11, 0.63) !important;
 }
 
 header.masthead {

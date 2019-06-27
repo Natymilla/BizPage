@@ -890,16 +890,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-info h3 {
-  font-size: 34px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 10px;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  border-left: 4px solid #d20017;
-}
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -912,12 +902,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
   color: #eee;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -925,8 +913,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #d20017;
-  color: #fff;
+  color: #d20017;
 }
 
 #footer .footer-top h4 {
@@ -961,25 +948,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-links ul {
+#footer .footer-top .footer-info ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#footer .footer-top .footer-links ul i {
-  padding-right: 8px;
+#footer .footer-top .footer-info ul i {
   color: #ddd;
 }
 
-#footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #333;
-  padding: 10px 0;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
 
 #footer .footer-top .footer-links ul a {
   color: #eee;
@@ -989,38 +967,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #d20017;
 }
 
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+#footer .footer-top .footer-map{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-#footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #d20017;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #d20017;
-}
 
 #footer .copyright {
   text-align: center;
